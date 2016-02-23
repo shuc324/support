@@ -21,6 +21,8 @@ abstract class Facade
 
     /**
      * 解析门面
+     * @param $facade
+     * @return mixed
      */
     protected static function resolveFacadeInstance($facade)
     {
@@ -48,7 +50,7 @@ abstract class Facade
     /**
      * 设置门面
      */
-    public static function setFacade()
+    protected static function setFacade()
     {
         throw new RuntimeException("Facade does not implement setFacade method.");
     }
