@@ -15,7 +15,7 @@ abstract class Facade
     const PARAM_LEN_TH = 3;
     const PARAM_LEN_FO = 4;
 
-    protected static $app;
+    protected static $container;
 
     protected static $resolveInstance;
 
@@ -34,17 +34,17 @@ abstract class Facade
             return static::$resolveInstance[$facade];
         }
 
-        return static::$resolveInstance[$facade] = static::$app[$facade];
+        return static::$resolveInstance[$facade] = static::$container[$facade];
     }
 
     /**
      * 设置容器
-     * @param $app
+     * @param $container
      * @return mixed
      */
-    public static function setContainer($app)
+    public static function setContainer($container)
     {
-        return static::$app = $app;
+        return static::$container = $container;
     }
 
     /**
