@@ -1,6 +1,7 @@
 {
     "name": "shuc324/support",
     "description": "support...",
+    "keywords": ["facade", "trait"],
     "license": "MIT",
     "authors": [
         {
