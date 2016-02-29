@@ -38,11 +38,11 @@ abstract class Facade
     }
 
     /**
-     * 设置Application
+     * 设置容器
      * @param $app
      * @return mixed
      */
-    public static function setApplication($app)
+    public static function setContainer($app)
     {
         return static::$app = $app;
     }
