@@ -4,10 +4,10 @@ namespace Shuc324\Support\Facade;
 
 use Shuc324\Support\Facades\Facade;
 
-class Xml extends Facade
+class XmlIO extends Facade
 {
     protected static function setFacade()
     {
-        return 'xml';
+        return 'xmlIO';
     }
 }
