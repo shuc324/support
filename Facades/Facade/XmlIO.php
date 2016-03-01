@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuc324\Support\Facade;
+namespace Shuc324\Support\Facades\Facade;
 
 use Shuc324\Support\Facades\Facade;
 
