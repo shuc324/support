@@ -11,8 +11,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "shuc324/container": "1.0.x-dev",
-        "shuc324/xml": "1.0.x-dev"
+        "shuc324/container": "1.0.x-dev"
     },
     "autoload": {
         "psr-4": {
